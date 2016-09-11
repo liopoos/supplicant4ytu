@@ -15,7 +15,7 @@ def get_mac_address():
     return ":".join([mac[e:e+2] for e in range(0,11,2)])
 
 def gethost():
-    host='210.45.194.10'
+    host='219.218.154.250'
     return host
 
 def Get_local_ip():
