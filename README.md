@@ -6,13 +6,15 @@
 目前我修改了部分源代码用来供**烟台大学**的赛尔网络认证使用。
 其他学校可能会认证失败。
 
+详细介绍：https://blog.mayuko.cn/archives/1897
+
 #测试环境#
 * OS X、windows、linux、android、(Openwrt以测试，需要python运行环境，/overlay需要8m以上可用空间)
 * Python 2.7.x
 
 
 # 已知bug #
-若认真成功后关闭终端后再次认证则会出现time out。
+若认证成功后关闭终端后再次认证则会出现time out。
 
 **修复方法：**
 
