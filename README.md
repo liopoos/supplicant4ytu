@@ -1,6 +1,6 @@
-Description
+## Description
 
-This is a fully platform-certified script for the Python-based Supplicant developed by lyq1996.
+This is a fully platform-certified script for the Python-based **Supplicant** developed by lyq1996.
 
 Source Address: https://github.com/lyq1996/supplicant
 
@@ -10,14 +10,15 @@ Details: https://blog.mayuko.cn/archives/1897
 
   
 
-Environment
+## Environment
 
 - Mac OS 10.12. *, Windows, Linux, Android, (Openwrt for testing, python running environment, overlay requires more than 8m free space)
 - Python 2.7.x
 
 
 
-Bugs
+
+## Bugs
 
 If the authentication is successful, turn off the terminal and then re-certification will appear time out.
 
@@ -28,7 +29,8 @@ Repair method:
 
 
 
-Configuration
+
+## Configuration
 
 Please configure Python2.7.x before use, for some Linux distributions that come with Python3.5, please configure 2.7 yourself or you will get an error.
 
@@ -44,21 +46,21 @@ password = '' # Fill in your password here
 
   
 
-Operation
+## Operation
 
-Online 
+**Online** 
 
 Mac users: open the terminal, drag the py file to the terminal, press Enter.
 
 Linux users: download python operating environment, followed by steps with Mac.
 
-Offline
+**Offline**
 
 Enter ctrl + C
 
   
 
-Notice
+## Notice
 
 Please be optimistic about the use of your network adapter mac address and procedure is consistent, and ip is the current card.
 
