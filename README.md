@@ -1,51 +1,67 @@
-# 重要说明 #
-这是由lyq1996开发的基于Python的安腾小蝴蝶的全平台认证脚本。
+Description
 
-源地址：https://github.com/lyq1996/supplicant
+This is a fully platform-certified script for the Python-based Supplicant developed by lyq1996.
 
-目前我修改了部分源代码用来供**烟台大学**的赛尔网络认证使用。
-其他学校可能会认证失败。
+Source Address: https://github.com/lyq1996/supplicant
 
-详细介绍：https://blog.mayuko.cn/archives/1897
+At present, part of the source code is revised for Purcell network certification of Yantai University, and other schools may fail the certification.
 
-#测试环境#
-* OS X、windows、linux、android、(Openwrt以测试，需要python运行环境，/overlay需要8m以上可用空间)
-* Python 2.7.x
+Details: https://blog.mayuko.cn/archives/1897
 
+  
 
-# 已知bug #
-若认证成功后关闭终端后再次认证则会出现time out。
+Environment
 
-**修复方法：**
-
-关闭终端，等待赛尔网络掉线后再次连接即可。
-
-# 使用前的配置   #
-使用前请配置Python2.7.x，对于一些自带Python3.5的linux发行版本用户请自行配置2.7，否则会报错。  
-在程序打开前必须先打开.py文件进行用户名，密码的填写。  
-
-Mac用户推荐使用coderunner打开下载的py文件  
-
-安卓在使用前请下载Qpython。
-
-username = '' #在这里填上你的用户名
-
-password = '' #在这里填上你的密码
+- Mac OS 10.12. *, Windows, Linux, Android, (Openwrt for testing, python running environment, overlay requires more than 8m free space)
+- Python 2.7.x
 
 
-# 运行步骤 #
-上线：  
-Mac用户：打开终端，把py文件拖到终端里，回车。  
-Linux用户：下载python运行环境，随后步骤同Mac。    
 
-下线：  
-输入ctrl＋C
+Bugs
 
-# 注意事项   #
-使用时请看好你的网卡mac地址和程序显示的是否一致，以及ip是否是当前网卡上的。  
-请使用ifconfig命令选择网卡，否则会报用户绑定Mac地址错误！  
+If the authentication is successful, turn off the terminal and then re-certification will appear time out.
 
-如果终端显示权限不够，则右键属性，将**允许作为可执行文件**选中即可。
+Repair method:
 
-  
+- Turn off the terminal, wait for the Purcell network is offline, then connect again.
+- connect again.
 
+
+
+Configuration
+
+Please configure Python2.7.x before use, for some Linux distributions that come with Python3.5, please configure 2.7 yourself or you will get an error.
+
+Open the program before you open the .py file for user name, password fill.
+
+Mac users recommend using coderunner to open downloaded py files
+
+Please download Qpython before using it.
+
+username = '' # Fill in your username here
+
+password = '' # Fill in your password here
+
+  
+
+Operation
+
+Online 
+
+Mac users: open the terminal, drag the py file to the terminal, press Enter.
+
+Linux users: download python operating environment, followed by steps with Mac.
+
+Offline
+
+Enter ctrl + C
+
+  
+
+Notice
+
+Please be optimistic about the use of your network adapter mac address and procedure is consistent, and ip is the current card.
+
+Please use the ifconfig command to select the network card, otherwise it will report the user bind Mac address error!
+
+If the terminal shows insufficient permissions, then right-click the property that will allow it to be checked as an executable file.
